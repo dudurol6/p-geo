@@ -1,0 +1,1 @@
+<?php header('Location: main_files/strona-glowna.php'); ?>
