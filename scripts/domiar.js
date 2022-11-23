@@ -1,23 +1,29 @@
 function offset(){
 
-    console.log('dupa dupa123');
+    var X_beg = Number(document.getElementById('coord-Xbeg').value);
+    var Y_beg = Number(document.getElementById('coord-Ybeg').value);
+    var X_end = Number(document.getElementById('coord-Xend').value);
+    var Y_end = Number(document.getElementById('coord-Yend').value);
+    var current = Number(document.getElementById('current').value);
+    var offset = Number(document.getElementById('offset').value);
 
-    var coord_Xbeg = document.getElementById('coord-Xbeg').value;
-    var coord_Ybeg = document.getElementById('coord-Ybeg').value;
-    var coord_Xend = document.getElementById('coord-Xend').value;
-    var coord_Yend = document.getElementById('coord-Yend').value;
-    var current = document.getElementById('current').value;
-    var offset = document.getElementById('offset').value;
+    var azimuthDeltaX = X_end - X_beg;
+    var azimuthDeltaY = Y_end - Y_beg;
 
-    var azimuthDeltaX = coord_Xend - coord_Xbeg;
-    var azimuthDeltaY = coord_Yend - coord_Ybeg;
-    var length = Math.sqrt(azimuthDeltaX^2 + azimuthDeltaY^2);
-    var Wx = azimuthDeltaX / length;
-    var Wy = azimuthDeltaY / length;
+    var length = Math.sqrt(azimuthDeltaX**2 + azimuthDeltaY**2).toFixed(2);
+    var Wx = (azimuthDeltaX / length).toFixed(7);
+    var Wy = (azimuthDeltaY / length).toFixed(7);
 
-    var resultX = coord_Xbeg + current * Wx - offset * Wy;
-    var resultY = coord_Ybeg + current * Wy + offset * Wx;
+    var resultX = X_beg + current * Wx - offset * Wy;
+    var resultY = Y_beg + current * Wy + offset * Wx;
 
-    $('#result').html('X<sub>P</sub> = '+resultX.toFixed(2)+'  Y<sup>P</sup> = '+resultY.toFixed(2)+'');
+    if(current > length){
+        $('#result').css('display', 'block');
+        $('#result').html('BŁĄD!'); 
+    }
+    else{
+        $('#result').css('display', 'block');
+        $('#result').html('X<sub>P</sub> = '+resultX.toFixed(2)+'  Y<sub>P</sub> = '+resultY.toFixed(2)+'');
+    }
     
 }

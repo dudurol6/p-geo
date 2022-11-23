@@ -1,6 +1,6 @@
 <?php 
 
-    define('title', 'Metoda ortogonalna');
+    define('title', 'PG - Metoda ortogonalna');
     include('../includes/header.php');
 
 ?>
@@ -12,7 +12,7 @@
     <div class="main-welcome-text">Kalkulator punkt na domiarze</div>
     <div class="main-box">
 
-        <div class="main-elem w100 column bg border">
+        <div class="main-elem column bg border">
 
             <label for="number" class="calc-form-area-label">Współrzędna X<sub>pocz</sub></label>
             <input type="number" name="coord-Xbeg" id="coord-Xbeg" class="calc-form-area">

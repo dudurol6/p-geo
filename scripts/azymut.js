@@ -1,12 +1,12 @@
 function azimuth(){
 
-    var coord_x1 = document.getElementById('coord-X1').value;
-    var coord_y1 = document.getElementById('coord-Y1').value;
-    var coord_x2 = document.getElementById('coord-X2').value;
-    var coord_y2 = document.getElementById('coord-Y2').value;
+    var x_1 = Number(document.getElementById('coord-X1').value);
+    var y_1 = Number(document.getElementById('coord-Y1').value);
+    var x_2 = Number(document.getElementById('coord-X2').value);
+    var y_2 = Number(document.getElementById('coord-Y2').value);
 
-    var deltaX = coord_x2 - coord_x1;
-    var deltaY = coord_y2 - coord_y1;
+    var deltaX = x_2 - x_1;
+    var deltaY = y_2 - y_1;
     var correct = true;
     var result = 500;
 

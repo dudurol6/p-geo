@@ -1,6 +1,6 @@
 <?php 
 
-    define('title', 'Kalkulator azymut');
+    define('title', 'PG - Azymut');
     include('../includes/header.php');
 
 ?>
@@ -12,7 +12,7 @@
     <div class="main-welcome-text">Kalkulator Azymut</div>
     <div class="main-box">
 
-        <div class="main-elem w100 column bg border">
+        <div class="main-elem column bg border">
             
             <label for="number" class="calc-form-area-label">Współrzędna X<sub>1</sub></label>
             <input type="number" name="coord-X1" id="coord-X1" class="calc-form-area">

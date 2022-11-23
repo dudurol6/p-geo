@@ -1,16 +1,16 @@
 function angleFromCoordinates(){
 
-    var coord_XL = document.getElementById('coord-XL').value;
-    var coord_YL = document.getElementById('coord-YL').value;
-    var coord_XP = document.getElementById('coord-XP').value;
-    var coord_YP = document.getElementById('coord-YP').value;
-    var coord_XC = document.getElementById('coord-XC').value;
-    var coord_YC = document.getElementById('coord-YC').value;
+    var x_l = document.getElementById('coord-XL').value;
+    var y_l = document.getElementById('coord-YL').value;
+    var x_p = document.getElementById('coord-XP').value;
+    var y_p = document.getElementById('coord-YP').value;
+    var x_c = document.getElementById('coord-XC').value;
+    var y_c = document.getElementById('coord-YC').value;
 
-    var deltaXL = coord_XL - coord_XC; //   |deltaXL  deltaYL|
-    var deltaYL = coord_YL - coord_YC; //   |deltaXP  deltaYP|
-    var deltaXP = coord_XP - coord_XC; //                     0
-    var deltaYP = coord_YP - coord_YC;
+    var deltaXL = x_l - x_c; //   |deltaXL  deltaYL|
+    var deltaYL = y_l - y_c; //   |deltaXP  deltaYP|
+    var deltaXP = x_p - x_c; //                     0
+    var deltaYP = y_p - y_c;
 
     var hausbrandtForm_1 = deltaXL * deltaYP - deltaYL * deltaXP;
     var hausbrandtForm_2 = deltaXL * deltaXP + deltaYL * deltaYP;

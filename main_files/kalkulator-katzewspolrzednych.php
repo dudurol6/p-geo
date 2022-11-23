@@ -1,6 +1,6 @@
 <?php 
 
-    define('title', 'Kąt ze współrzędnych');
+    define('title', 'PG - Kąt ze współrzędnych');
     include('../includes/header.php');
 
 ?>
@@ -12,7 +12,7 @@
     <div class="main-welcome-text">Kalkulator kąt ze współrzędnych</div>
     <div class="main-box">
 
-        <div class="main-elem w100 column bg border">
+        <div class="main-elem column bg border">
             
             <label for="number" class="calc-form-area-label">Współrzędna X<sub>L</sub></label>
             <input type="number" name="coord-XL" id="coord-XL" class="calc-form-area">
