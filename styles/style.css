@@ -1,9 +1,13 @@
+html{
+    min-height: calc(100% + env(safe-area-inset-top));
+    background: url('../img/background.jpg');
+    background-size: cover;  
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
 body{
     /*font-family: 'Roboto Condensed', sans-serif;*/
     font-family: 'Exo 2', sans-serif;
     font-size: 22px;
-    background: url('../img/background.jpg');
-    background-size: cover;    
     color: #ffffff;
     width: 99%;
     margin: 0 auto;
@@ -194,7 +198,7 @@ a:hover{
 /*#############################################################################*/
 
 .me-image{
-    background: url('../img/me-image2.png');
+    background: url('../img/me-image3.png');
     width: 500px!important;
     height: 500px!important;
     background-size: 450px;
