@@ -1,6 +1,7 @@
 html{
     min-height: calc(100% + env(safe-area-inset-top));
     background: url('../img/background.jpg');
+	background-color: #a05936;
     background-size: cover;  
     padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
