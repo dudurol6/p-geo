@@ -195,6 +195,16 @@ a:hover{
 
 .iconfont{font-size: 86px;}
 
+.post-item{
+	padding: 10px!important;
+	background-color: #c26b3f;
+	margin: 10px!important;
+}
+
+.post-image{
+	width: 90%;	
+	margin: 5px!important;
+}
 /*#############################################################################*/
 /*#############################################################################*/
 
@@ -341,10 +351,10 @@ a:hover{
 @media screen and (max-width: 500px){
     .main-box{
         width: 99%;
-    }
-    .main-elem{
+	}
+    /*.main-elem{
         margin: 0px 5px 0px 5px!important;
-    }
+    }*/
     .contact-item{
         width: 180px;
         height: 180px;        
@@ -381,3 +391,4 @@ a:hover{
 .wrap{ flex-wrap: wrap; }
 .border{ border: 1px solid rgba(153, 121, 26, 0.7); }
 .noflex{ display: block; }
+.temp-text{ color: #999999; }
