@@ -10,10 +10,13 @@
 <main>
 
     <div class="main-welcome-text">Kalkulator kąt ze współrzędnych</div>
+    <a class="post-a" href="strona-glowna.php" style="margin-bottom: 20px; margin-top: -20px"><div class="main-elem column border post-item">Powróć do wszystkich</div></a>
     <div class="main-box">
 
-        <div class="main-elem column bg border">
+        <div class="box main-elem column bg border">
             
+            <div class="main-elem border post-item" style="background-color: #c2873f;"><div style="color: #8fe835;margin-right: 10px;">100.00</div><div style="color: #fa4141;margin-left: 10px;"><strike>100,00</strike></div></div>
+
             <label for="number" class="calc-form-area-label">Współrzędna X<sub>L</sub></label>
             <input type="number" name="coord-XL" id="coord-XL" class="calc-form-area">
 

@@ -23,7 +23,7 @@
                     <div class="main-elem column border calculation-apps-images" id="anglefromcoordinates">Kąt ze <br><br> współrz.</div>
                 </a>
                 <a class="main-a" href="kalkulator-domiar.php">
-                    <div class="main-elem column border calculation-apps-images" id="orthogonalmethod">Domiar prostokątny</div>
+                    <div class="main-elem column border calculation-apps-images" id="orthogonalmethod">Domiar prostokąt.</div>
                 </a>
                 <a class="main-a" href="kalkulator-biegunowa.php">
                     <div class="main-elem column border calculation-apps-images" id="polarmethod">Metoda biegunowa</div>

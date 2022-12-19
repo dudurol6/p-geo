@@ -10,19 +10,19 @@
     <div class="main-welcome-text">Posty</div>
     <div class="main-box">
 
-		<div class="main-elem column bg border">
+		<div class="box main-elem column bg border">
 			
-			<a class="main-a" href="post.php?post=czym_jest_geodezja">
+			<a class="post-a" href="post.php?post=czym_jest_geodezja">
                 <div class="main-elem column border post-item">1 - Czym jest geodezja</div>
             </a>
-			<a class="main-a" href="#">
-                <div class="main-elem column border post-item temp-text"><strike>2 - Uprawnienia zawodowe</strike></div>
+			<a class="post-a" href="post.php?post=uprawnienia_zawodowe">
+                <div class="main-elem column border post-item">2 - Uprawnienia zawodowe</div>
             </a>
-			<a class="main-a" href="#">
-                <div class="main-elem column border post-item temp-text"><strike>3 - Jednostki w geodezji</strike></div>
+			<a class="post-a" href="post.php?post=jednostki_w_geodezji">
+                <div class="main-elem column border post-item">3 - Jednostki w geodezji</div>
             </a>
-			<a class="main-a" href="#">
-                <div class="main-elem column border post-item temp-text"><strike>4 - Sprzęt używany do pomiarów</strike></div>
+			<a class="post-a" href="post.php?post=sprzet_w_geodezji">
+                <div class="main-elem column border post-item">4 - Sprzęt używany do pomiarów</div>
 			</a>
 			
 		</div>

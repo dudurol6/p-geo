@@ -37,7 +37,7 @@ function angleFromCoordinates(){
     else{
         $('#result').css('display', 'block');
         if(correct) $('#result').html('Kąt = '+result.toFixed(4)+'<span style="text-transform:none"><sup>g</sup></span>');
-        else $('#result').html('PUNKTY W TYM SAMYM MIEJSCU albo BRAK WARTOŚCI');
+        else $('#result').html('BŁĄD!');
     }
 
 }

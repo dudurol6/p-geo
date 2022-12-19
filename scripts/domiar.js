@@ -23,7 +23,8 @@ function offset(){
     }
     else{
         $('#result').css('display', 'block');
-        $('#result').html('X<sub>P</sub> = '+resultX.toFixed(2)+'  Y<sub>P</sub> = '+resultY.toFixed(2)+'');
+        if(X_beg == X_end && Y_beg == Y_end) $('#result').html('BŁĄD!'); 
+        else $('#result').html('X<sub>P</sub> = '+resultX.toFixed(2)+'  Y<sub>P</sub> = '+resultY.toFixed(2)+'');
     }
     
 }
