@@ -24,7 +24,7 @@ function azimuth(){
         $('#result').css('display', 'block');
         $('#result').html('BŁĄD!');
     }
-    else{
+    else if(x_1 && y_1 && x_2 && y_2){
         $('#result').css('display', 'block');
         if(correct) $('#result').html('Azymut = '+result.toFixed(4)+'<span style="text-transform:none"><sup>g</sup></span>');
         else $('#result').html('BŁĄD!');

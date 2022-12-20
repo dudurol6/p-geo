@@ -239,21 +239,21 @@ a:hover{
     background-position: center;
 }
 
-#azimuth{
-    background: url('../img/azymut-image.png');
-}
-#anglefromcoordinates{
-    background: url('../img/katzewspolrzednych-image.png');
-}
-#orthogonalmethod{
-    background: url('../img/metodaortogonalna-image.png');
-}
-#polarmethod{
-    background: url('../img/metodabiegunowa-image.png');
-}
+#azimuth{ background: url('../img/azymut-image.png'); }
+#anglefromcoordinates{ background: url('../img/katzewspolrzednych-image.png'); }
+#orthogonalmethod{ background: url('../img/metodaortogonalna-image.png'); }
+#polarmethod{ background: url('../img/metodabiegunowa-image.png'); }
+#angularindentation{ background: url('../img/wcieciekatowe-image.png'); }
+#linearindentation { background: url('../img/wciecieliniowe-image.png'); }
 
 /*#############################################################################*/
 /*#############################################################################*/
+
+.calc-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .calc-form-area-label{
     font-size: 14px;

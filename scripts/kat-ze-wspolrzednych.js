@@ -36,7 +36,7 @@ function angleFromCoordinates(){
     }
     else{
         $('#result').css('display', 'block');
-        if(correct) $('#result').html('Kąt = '+result.toFixed(4)+'<span style="text-transform:none"><sup>g</sup></span>');
+        if(correct && x_l && y_l && x_p && y_p && x_c && y_c) $('#result').html('Kąt = '+result.toFixed(4)+'<span style="text-transform:none"><sup>g</sup></span>');
         else $('#result').html('BŁĄD!');
     }
 

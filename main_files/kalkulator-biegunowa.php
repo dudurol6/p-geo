@@ -38,7 +38,6 @@
             <label for="number" class="calc-form-area-label">Odległość do punktu</label>
             <input type="number" name="distance" id="distance" class="calc-form-area">
 
-
             <input type="submit" name="submit" value="Oblicz" class="calc-form-submit-button" onclick="polar()">
             <div id="result"></div>
 

@@ -30,11 +30,10 @@
             <input type="number" name="coord-Yend" id="coord-Yend" class="calc-form-area">
 
             <label for="number" class="calc-form-area-label">Miara bieżąca</label>
-            <input tYPe="number" name="current" id="current" class="calc-form-area">
+            <input type="number" name="current" id="current" class="calc-form-area">
 
             <label for="number" class="calc-form-area-label">Domiar<br><sub> (+) prawy | (-) lewy</sub></label>
-            <input tYPe="number" name="offset" id="offset" class="calc-form-area">
-
+            <input type="number" name="offset" id="offset" class="calc-form-area">
 
             <input type="submit" name="submit" value="Oblicz" class="calc-form-submit-button" onclick="offset()">
             <div id="result"></div>

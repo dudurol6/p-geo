@@ -24,7 +24,7 @@ function offset(){
     else{
         $('#result').css('display', 'block');
         if(X_beg == X_end && Y_beg == Y_end) $('#result').html('BŁĄD!'); 
-        else $('#result').html('X<sub>P</sub> = '+resultX.toFixed(2)+'  Y<sub>P</sub> = '+resultY.toFixed(2)+'');
+        else if(X_beg && Y_beg && X_end && Y_end && current && offset) $('#result').html('X<sub>P</sub> = '+resultX.toFixed(2)+'  Y<sub>P</sub> = '+resultY.toFixed(2)+'');
     }
     
 }

@@ -28,6 +28,12 @@
                 <a class="main-a" href="kalkulator-biegunowa.php">
                     <div class="main-elem column border calculation-apps-images" id="polarmethod">Metoda biegunowa</div>
                 </a>
+                <a class="main-a" href="kalkulator-wcieciekatowe.php">
+                    <div class="main-elem column border calculation-apps-images" id="angularindentation">Wcięcie kątowe</div>
+                </a>
+                <a class="main-a" href="#">
+                    <div class="main-elem column border calculation-apps-images" id="linearindentation">Wcięcie liniowe</div>
+                </a>
                 
             </div>
 
