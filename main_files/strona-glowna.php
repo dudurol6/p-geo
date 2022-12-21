@@ -32,7 +32,7 @@
                     <div class="main-elem column border calculation-apps-images" id="angularindentation">Wcięcie kątowe</div>
                 </a>
                 <a class="main-a" href="#">
-                    <div class="main-elem column border calculation-apps-images" id="linearindentation">Wcięcie liniowe</div>
+                    <div class="main-elem column border calculation-apps-images" id="linearindentation"><span style="color: #c7c7c7;">Chwilowo niedostępne</span></div>
                 </a>
                 
             </div>
