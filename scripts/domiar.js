@@ -10,9 +10,9 @@ function offset(){
     var azimuthDeltaX = X_end - X_beg;
     var azimuthDeltaY = Y_end - Y_beg;
 
-    var length = Math.sqrt(azimuthDeltaX**2 + azimuthDeltaY**2).toFixed(2);
-    var Wx = (azimuthDeltaX / length).toFixed(7);
-    var Wy = (azimuthDeltaY / length).toFixed(7);
+    var length = Math.sqrt(azimuthDeltaX**2 + azimuthDeltaY**2);
+    var Wx = (azimuthDeltaX / length);
+    var Wy = (azimuthDeltaY / length);
 
     var resultX = X_beg + current * Wx - offset * Wy;
     var resultY = Y_beg + current * Wy + offset * Wx;

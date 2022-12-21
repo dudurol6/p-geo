@@ -5,8 +5,8 @@ function polar(){
     var X_ref = Number(document.getElementById('coord-Xreference').value);
     var Y_ref = Number(document.getElementById('coord-Yreference').value);
     var distance = Number(document.getElementById('distance').value);
-    var refDir = Number(document.getElementById('reference-direction').value).toFixed(4);
-    var pointDir = Number(document.getElementById('point-direction').value).toFixed(4);
+    var refDir = Number(document.getElementById('reference-direction').value);
+    var pointDir = Number(document.getElementById('point-direction').value);
 
     var deltaX = X_ref - X_st;
     var deltaY = Y_ref - Y_st;

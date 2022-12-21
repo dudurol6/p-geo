@@ -10,12 +10,12 @@ function angularIndentation(){
         var f1 = x_a * 1/Math.tan(angleBeta * Math.PI / 200) - y_a * (-1) + x_b * 1/Math.tan(angleAlpha * Math.PI / 200) - y_b * 1;
         var f2 = x_a * (-1) + y_a * 1/Math.tan(angleBeta * Math.PI / 200) + x_b * 1 + y_b * 1/Math.tan(angleAlpha * Math.PI / 200);
 
-        var resultX = (f1 / (1/Math.tan(angleAlpha * Math.PI / 200) + 1/Math.tan(angleBeta * Math.PI / 200))).toFixed(2);
-        var resultY = (f2 / (1/Math.tan(angleAlpha * Math.PI / 200) + 1/Math.tan(angleBeta * Math.PI / 200))).toFixed(2);
+        var resultX = f1 / (1/Math.tan(angleAlpha * Math.PI / 200) + 1/Math.tan(angleBeta * Math.PI / 200));
+        var resultY = f2 / (1/Math.tan(angleAlpha * Math.PI / 200) + 1/Math.tan(angleBeta * Math.PI / 200));
 
         if(x_a && x_b && y_a && y_b && angleAlpha && angleBeta){
             $('#result').css('display', 'block');
-            $('#result').html('X<sub>P</sub> = '+resultX+'  Y<sub>P</sub> = '+resultY+'');
+            $('#result').html('X<sub>P</sub> = '+resultX.toFixed(2)+'  Y<sub>P</sub> = '+resultY.toFixed(2)+'');
         }
         else{
             $('#result').css('display', 'block');

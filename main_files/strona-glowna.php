@@ -31,8 +31,8 @@
                 <a class="main-a" href="kalkulator-wcieciekatowe.php">
                     <div class="main-elem column border calculation-apps-images" id="angularindentation">Wcięcie kątowe</div>
                 </a>
-                <a class="main-a" href="#">
-                    <div class="main-elem column border calculation-apps-images" id="linearindentation"><span style="color: #c7c7c7;">Chwilowo niedostępne</span></div>
+                <a class="main-a" href="kalkulator-wciecieliniowe.php">
+                    <div class="main-elem column border calculation-apps-images" id="linearindentation">Wcięcie liniowe</div>
                 </a>
                 
             </div>

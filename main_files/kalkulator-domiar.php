@@ -32,7 +32,7 @@
             <label for="number" class="calc-form-area-label">Miara bieżąca</label>
             <input type="number" name="current" id="current" class="calc-form-area">
 
-            <label for="number" class="calc-form-area-label">Domiar<br><sub> (+) prawy | (-) lewy</sub></label>
+            <label for="number" class="calc-form-area-label" style="margin-bottom: 5px;">Domiar<br><sub> (+) prawy | (-) lewy</sub></label>
             <input type="number" name="offset" id="offset" class="calc-form-area">
 
             <input type="submit" name="submit" value="Oblicz" class="calc-form-submit-button" onclick="offset()">
