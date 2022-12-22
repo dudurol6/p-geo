@@ -9,6 +9,7 @@
 
 <main>
 
+	<div class="sep-line"></div>
     <div class="main-welcome-text">Kalkulator punkt metodą biegunową</div>
     <a class="post-a" href="strona-glowna.php" style="margin-bottom: 20px; margin-top: -20px"><div class="main-elem column border post-item">Powróć do wszystkich</div></a>
     <div class="main-box">

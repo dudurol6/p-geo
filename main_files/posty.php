@@ -7,6 +7,7 @@
 
 <main>
 
+	<div class="sep-line"></div>
     <div class="main-welcome-text">Posty</div>
     <div class="main-box">
 

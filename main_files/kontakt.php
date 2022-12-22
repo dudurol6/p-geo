@@ -7,6 +7,7 @@
 
 <main>
 
+	<div class="sep-line"></div>
     <div class="main-welcome-text">Kontakt</div>
     <div class="main-box" style="flex-direction:column;justify-content:center;align-items:center;">
 
@@ -15,7 +16,7 @@
             <a class="contact-itemA" href="https://www.facebook.com/maciejdudkowski.33" target="_blank"><div class="main-elem contact-item" id="facebook-elem">
                 <i class="demo-icon icon-facebook iconfont"></i>
             </div></a>
-            <a class="contact-itemA" href="https://www.instagram.com/dudeq_6/" target="_blank"><div class="main-elem contact-item" id="instagram-elem">
+            <a class="contact-itemA" href="https://www.instagram.com/dudeq_6/" target="_blank"><div class="main-elem contact-item instagram-elem">
                 <i class="demo-icon icon-instagram iconfont"></i>
             </div></a>
             <a class="contact-itemA" href="mailto:dudurol66@gmail.com"><div class="main-elem contact-item" id="mail-elem">

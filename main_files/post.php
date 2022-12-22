@@ -61,6 +61,7 @@
 
 <main>
 
+	<div class="sep-line"></div>
     <div class="main-welcome-text"><?php echo $postTitle; ?></div>
 	<a class="post-a" href="posty.php" style="margin-bottom: 10px; margin-top: -20px"><div class="main-elem column border post-item">Powróć do wszystkich</div></a>
     <div class="main-box">

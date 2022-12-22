@@ -7,6 +7,7 @@
 
 <main>
 
+	<div class="sep-line"></div>
     <div class="main-welcome-text">O autorze</div>
     <div class="main-box" style="flex-direction:column;align-items:center;">
 
