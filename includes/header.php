@@ -50,7 +50,7 @@
                 <a href="kontakt.php">
                     <div class="header-nav-item">Kontakt</div>
                 </a>
-
+				<div class="break"></div>
 				<a class="post-a" href="https://instagram.com/przystanek.geodezja" target="_blank"><div class="main-elem separated-item instagram-elem">Instagram</div></a>
 			</nav>
 

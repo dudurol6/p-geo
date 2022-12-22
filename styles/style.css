@@ -1,4 +1,5 @@
 html{
+	width: 100%;
     min-height: calc(100% + env(safe-area-inset-top));
     background: url('../img/background.jpg');
 	background-color: #a05936;
@@ -14,14 +15,14 @@ body{
     margin: 0 auto;
 }
 
-header{ width: 99%; }
+header{ width: 100%; }
 
 main{
     margin: 30px 0px 20px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 99%;
+    width: 100%;
 }
 
 nav{
@@ -36,7 +37,7 @@ footer{
     margin-top: 20px;
     display: flex;
     justify-content: center;
-    width: 99%;
+    width: 100%;
     border: 1px solid #a05936;
     border-radius: 5px;
     background-color: #ad5f37;
@@ -82,7 +83,7 @@ a:hover{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 100%;
+    width: 97.5%;
 	margin-left: auto;
 	margin-right: auto;
     border-radius: 5px;
@@ -202,7 +203,11 @@ a:hover{
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
 	margin: 5px!important; 
 }
-#mail-elem{ background: linear-gradient(225deg, #4285F4 0%, #BB001B 20%, #EA4335 40%, #FBBC05 60%, #34A853 80%);margin: 5px!important; }
+#mail-elem{ 
+	/*background: linear-gradient(225deg, #4285F4 0%, #BB001B 20%, #EA4335 40%, #FBBC05 60%, #34A853 80%);*/
+	background: linear-gradient(26deg, #FBAB7E 40%, #F7CE68 80%);
+	margin: 5px!important; 
+}
 
 .aboutme{
     letter-spacing: 2px;
@@ -242,6 +247,12 @@ a:hover{
 	width: 100%;
 	border-top: 1px solid #dbdbdb;
 	margin-bottom: 20px;
+	flex: 1;
+}
+
+.break{
+	flex-basis: 100%;
+	height: 0;
 }
 /*#############################################################################*/
 /*#############################################################################*/
