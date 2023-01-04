@@ -29,6 +29,16 @@
     <link rel="stylesheet" href="../../fontello/css/fontello.css">
     <link rel="stylesheet" href="../../styles/style.css">
     <script src="../scripts/jquery-3.5.0.min.js"></script>
+
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-FM1Y21SWBK"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+
+  		gtag('config', 'G-FM1Y21SWBK');
+	</script>
 </head>
 
 <body>

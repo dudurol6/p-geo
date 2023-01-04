@@ -1,2 +1,4 @@
-> Fix nav items' sorting and appearance in vertical mode on iPad
-> > > especially instagram button (supposedly its bottom margin doesn't work correctly)
+v 1.2.1
+
+TODO >>>
+> new calculation apps
