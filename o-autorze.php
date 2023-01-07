@@ -1,7 +1,7 @@
 <?php
 
     define('title', 'PG - O autorze');
-    include('../includes/header.php');
+    include('includes/header.php');
 
 ?>
 
@@ -28,4 +28,4 @@
 
 </main>
 
-<?php include('../includes/footer.php'); ?>
+<?php include('includes/footer.php'); ?>

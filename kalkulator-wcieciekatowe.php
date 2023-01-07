@@ -1,16 +1,16 @@
 <?php 
 
-    define('title', 'PG - Wcięcie liniowe');
-    include('../includes/header.php');
+    define('title', 'PG - Wcięcie kątowe');
+    include('includes/header.php');
 
 ?>
 
-<script type="text/javascript" src="../scripts/wciecie-liniowe.js"></script>
+<script type="text/javascript" src="scripts/wciecie-katowe.js"></script>
 
 <main>
 
 	<div class="sep-line"></div>
-    <div class="main-welcome-text">Kalkulator wcięcię liniowe</div>
+    <div class="main-welcome-text">Kalkulator wcięcię kątowe</div>
     <a class="post-a" href="strona-glowna.php" style="margin-bottom: 20px; margin-top: -20px"><div class="main-elem column border post-item">Powróć do wszystkich</div></a>
     <div class="main-box">
 
@@ -30,13 +30,13 @@
             <label for="number" class="calc-form-area-label">Współrzędna Y<sub>B</sub></label>
             <input type="number" name="YB" id="YB" class="calc-form-area">
 
-            <label for="number" class="calc-form-area-label">Odległość<sub>a</sub></label>
-            <input type="number" name="distance-a" id="distance-a" class="calc-form-area">
+            <label for="number" class="calc-form-area-label">Kąt<sub>alpha</sub></label>
+            <input type="number" name="angle-alpha" id="angle-alpha" class="calc-form-area">
 
-            <label for="number" class="calc-form-area-label">Odległość<sub>b</sub></label>
-            <input type="number" name="distance-b" id="distance-b" class="calc-form-area">
+            <label for="number" class="calc-form-area-label">Kąt<sub>beta</sub></label>
+            <input type="number" name="angle-beta" id="angle-beta" class="calc-form-area">
 
-            <input type="submit" name="submit" value="Oblicz" class="calc-form-submit-button" onclick="linearIndentation()">
+            <input type="submit" name="submit" value="Oblicz" class="calc-form-submit-button" onclick="angularIndentation()">
             <div id="result"></div>
 
         </div>
@@ -45,4 +45,4 @@
 
 </main>
 
-<?php include('../includes/footer.php'); ?>
+<?php include('includes/footer.php'); ?>

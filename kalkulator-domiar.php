@@ -1,11 +1,11 @@
 <?php 
 
     define('title', 'PG - Metoda ortogonalna');
-    include('../includes/header.php');
+    include('includes/header.php');
 
 ?>
 
-<script type="text/javascript" src="../scripts/domiar.js"></script>
+<script type="text/javascript" src="scripts/domiar.js"></script>
 
 <main>
 
@@ -45,4 +45,4 @@
 
 </main>
 
-<?php include('../includes/footer.php'); ?>
+<?php include('includes/footer.php'); ?>

@@ -1,11 +1,11 @@
 <?php 
 
     define('title', 'PG - Azymut');
-    include('../includes/header.php');
+    include('includes/header.php');
 
 ?>
 
-<script type="text/javascript" src="../scripts/azymut.js"></script>
+<script type="text/javascript" src="scripts/azymut.js"></script>
 
 <main>
 
@@ -39,4 +39,4 @@
 
 </main>
 
-<?php include('../includes/footer.php'); ?>
+<?php include('includes/footer.php'); ?>
