@@ -14,7 +14,7 @@ function azimuth(){
     else if(deltaX < 0 && deltaY > 0) result = 200 - Math.atan(Math.abs(deltaY / deltaX)) * 200 / Math.PI; // Q2
     else if(deltaX < 0 && deltaY < 0) result = 200 + Math.atan(Math.abs(deltaY / deltaX)) * 200 / Math.PI; // Q3
     else if(deltaX > 0 && deltaY < 0) result = 400 - Math.atan(Math.abs(deltaY / deltaX)) * 200 / Math.PI; // Q4
-    else if(deltaX == 0 && deltaY == 0){result = 'Punkty w tym samym miejscu';correct = false;}  // lack of cord diff
+    else if(deltaX == 0 && deltaY == 0){result = 'BŁĄD!';correct = false;}  // lack of cord diff
     else if(deltaX == 0 && deltaY > 0) result = 100; // exactly 100.0000
     else if(deltaX < 0 && deltaY == 0) result = 200; // exactly 200.0000
     else if(deltaX == 0 && deltaY < 0) result = 300; // exactly 300.0000
@@ -24,7 +24,7 @@ function azimuth(){
         $('#result').css('display', 'block');
         $('#result').html('BŁĄD!');
     }
-    else if(x_1 && y_1 && x_2 && y_2){
+    else{
         $('#result').css('display', 'block');
         if(correct) $('#result').html('Azymut = '+result.toFixed(4)+'<span style="text-transform:none"><sup>g</sup></span>');
         else $('#result').html('BŁĄD!');

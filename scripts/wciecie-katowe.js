@@ -13,7 +13,7 @@ function angularIndentation(){
         var resultX = f1 / (1/Math.tan(angleAlpha * Math.PI / 200) + 1/Math.tan(angleBeta * Math.PI / 200));
         var resultY = f2 / (1/Math.tan(angleAlpha * Math.PI / 200) + 1/Math.tan(angleBeta * Math.PI / 200));
 
-        if(x_a && x_b && y_a && y_b && angleAlpha && angleBeta){
+        if((angleAlpha > 0 && angleAlpha <= 200) && (angleBeta > 0 && angleBeta <= 200)){
             $('#result').css('display', 'block');
             $('#result').html('X<sub>P</sub> = '+resultX.toFixed(2)+'  Y<sub>P</sub> = '+resultY.toFixed(2)+'');
         }

@@ -24,7 +24,7 @@ function angleFromCoordinates(){
     else if(deltaX < 0 && deltaY > 0) result = 200 - Math.atan(Math.abs(deltaY / deltaX)) * 200 / Math.PI; // Q2
     else if(deltaX < 0 && deltaY < 0) result = 200 + Math.atan(Math.abs(deltaY / deltaX)) * 200 / Math.PI; // Q3
     else if(deltaX > 0 && deltaY < 0) result = 400 - Math.atan(Math.abs(deltaY / deltaX)) * 200 / Math.PI; // Q4
-    else if(deltaX == 0 && deltaY == 0){result = 'Punkty w tym samym miejscu';correct = false;}  // lack of cord diff
+    else if(deltaX == 0 && deltaY == 0){result = 'BŁĄD!';correct = false;}  // lack of cord diff
     else if(deltaX == 0 && deltaY > 0) result = 100; // exactly 100.0000
     else if(deltaX < 0 && deltaY == 0) result = 200; // exactly 200.0000
     else if(deltaX == 0 && deltaY < 0) result = 300; // exactly 300.0000
@@ -36,7 +36,7 @@ function angleFromCoordinates(){
     }
     else{
         $('#result').css('display', 'block');
-        if(correct && x_l && y_l && x_p && y_p && x_c && y_c) $('#result').html('Kąt = '+result.toFixed(4)+'<span style="text-transform:none"><sup>g</sup></span>');
+        if(correct) $('#result').html('Kąt = '+result.toFixed(4)+'<span style="text-transform:none"><sup>g</sup></span>');
         else $('#result').html('BŁĄD!');
     }
 

@@ -16,28 +16,39 @@
 
         <div class="box main-elem column bg border">
             
-            <div class="main-elem border post-item" style="background-color: #c2873f;"><div style="color: #8fe835;margin-right: 10px;">100.00</div><div style="color: #fa4141;margin-left: 10px;"><strike>100,00</strike></div></div>
+            <div class="main-elem border post-item" style="background-color: #c2873f; justify-content: center;">
+                <div style="color: #8fe835;margin-right: 10px;">100.00</div>
+                <div style="color: #fa4141;margin-left: 10px;"><strike>100,00</strike></div>
+                <div class="upperTXT" style="width: 100%; color: #e6e6e6; font-size: 16px;">Puste pole oznacza "0.00"</div>
+            </div>
 
-            <label for="number" class="calc-form-area-label">Współrzędna X<sub>A</sub></label>
-            <input type="number" name="XA" id="XA" class="calc-form-area">
+            <div class="main-elem row">
 
-            <label for="number" class="calc-form-area-label">Współrzędna Y<sub>A</sub></label>
-            <input type="number" name="YA" id="YA" class="calc-form-area">
+                <div class="in-elem description-image" id="angularindentation"></div>
 
-            <label for="number" class="calc-form-area-label">Współrzędna X<sub>B</sub></label>
-            <input type="number" name="XB" id="XB" class="calc-form-area">
+                <div class="in-elem column">
+                    <label for="number" class="calc-form-area-label">Współrzędna X<sub>A</sub></label>
+                    <input type="number" name="XA" id="XA" class="calc-form-area">
 
-            <label for="number" class="calc-form-area-label">Współrzędna Y<sub>B</sub></label>
-            <input type="number" name="YB" id="YB" class="calc-form-area">
+                    <label for="number" class="calc-form-area-label">Współrzędna Y<sub>A</sub></label>
+                    <input type="number" name="YA" id="YA" class="calc-form-area">
 
-            <label for="number" class="calc-form-area-label">Kąt<sub>alpha</sub></label>
-            <input type="number" name="angle-alpha" id="angle-alpha" class="calc-form-area">
+                    <label for="number" class="calc-form-area-label">Współrzędna X<sub>B</sub></label>
+                    <input type="number" name="XB" id="XB" class="calc-form-area">
 
-            <label for="number" class="calc-form-area-label">Kąt<sub>beta</sub></label>
-            <input type="number" name="angle-beta" id="angle-beta" class="calc-form-area">
+                    <label for="number" class="calc-form-area-label">Współrzędna Y<sub>B</sub></label>
+                    <input type="number" name="YB" id="YB" class="calc-form-area">
 
-            <input type="submit" name="submit" value="Oblicz" class="calc-form-submit-button" onclick="angularIndentation()">
-            <div id="result"></div>
+                    <label for="number" class="calc-form-area-label">Kąt<span style="text-transform: lowercase;"><sub>&alpha;</sub></span></label>
+                    <input type="number" name="angle-alpha" id="angle-alpha" class="calc-form-area">
+
+                    <label for="number" class="calc-form-area-label">Kąt<span style="text-transform: lowercase;"><sub>&beta;</sub></span></label>
+                    <input type="number" name="angle-beta" id="angle-beta" class="calc-form-area">
+
+                    <input type="submit" name="submit" value="Oblicz" class="calc-form-submit-button" onclick="angularIndentation()">
+                    <div id="result"></div>
+                </div>
+            </div>
 
         </div>
 

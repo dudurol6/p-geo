@@ -27,9 +27,9 @@
 	<meta name="theme-color" content="#a05936">
 
 
-    <link rel="stylesheet" href="../fontello/css/fontello.css">
-    <link rel="stylesheet" href="../styles/style.css">
-    <script src="../scripts/jquery-3.5.0.min.js"></script>
+    <link rel="stylesheet" href="fontello/css/fontello.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/jquery-3.5.0.min.js"></script>
 
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-FM1Y21SWBK"></script>

@@ -17,7 +17,7 @@ function linearIndentation(){
     var resultX = ((x_a * Cb - y_a * (-p4) + x_b * Ca - y_b * p4) / (Ca + Cb));
     var resultY = ((x_a * (-p4) + y_a * Cb + x_b * p4 + y_b * Ca) / (Ca + Cb));
 
-    if(x_a && x_b && y_a && y_b && distance_a && distance_b){
+    if(distance_a && distance_b){
         $('#result').css('display', 'block');
         $('#result').html('X<sub>P</sub> = '+resultX.toFixed(2)+'  Y<sub>P</sub> = '+resultY.toFixed(2)+'');
     }

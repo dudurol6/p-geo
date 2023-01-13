@@ -24,7 +24,7 @@ function polar(){
     else if(deltaX == 0 && deltaY < 0) referenceAzimuth = 300; // exactly 300.0000
     else if(deltaX > 0 && deltaY == 0) referenceAzimuth = 400; // exactly 400.0000 / 0.0000
 
-    if(correct && X_st && Y_st && X_ref && Y_ref && distance && refDir && pointDir){
+    if(correct){
         var angle = pointDir - refDir;
         var pointAzimuth = referenceAzimuth + angle;
 

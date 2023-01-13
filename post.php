@@ -70,7 +70,7 @@
 
 			<?php
 				for($n = 0; isset($img[$n]); $n++){
-					echo '<img class="post-image" src="'.$img[$n].'">';
+					echo '<img class="post-image rounded" src="'.$img[$n].'">';
 				}
 			?>	
 
