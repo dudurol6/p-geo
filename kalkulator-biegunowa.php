@@ -38,6 +38,8 @@
                     <label for="number" class="calc-form-area-label">Współrzędna Y<sub>N</sub></label>
                     <input type="number" name="coord-Xreference" id="coord-Yreference" class="calc-form-area">
 
+                    <br><div class="sep-line"></div>
+
                     <label for="number" class="calc-form-area-label">Kierunek do nawiązania</label>
                     <input type="number" name="reference-direction" id="reference-direction" class="calc-form-area">
 

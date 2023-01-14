@@ -35,6 +35,9 @@
                 <a class="main-a" href="kalkulator-wciecieliniowe.php">
                     <div class="main-elem column border calculation-apps-images" id="linearindentation">Wcięcie liniowe</div>
                 </a>
+                <a class="main-a" href="kalkulator-wcieciewstecz.php">
+                    <div class="main-elem column border calculation-apps-images" id="backindentation">Wcięcie wstecz</div>
+                </a>
                 
             </div>
 

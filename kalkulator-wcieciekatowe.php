@@ -39,6 +39,8 @@
                     <label for="number" class="calc-form-area-label">Współrzędna Y<sub>B</sub></label>
                     <input type="number" name="YB" id="YB" class="calc-form-area">
 
+                    <br><div class="sep-line"></div>
+
                     <label for="number" class="calc-form-area-label">Kąt<span style="text-transform: lowercase;"><sub>&alpha;</sub></span></label>
                     <input type="number" name="angle-alpha" id="angle-alpha" class="calc-form-area">
 

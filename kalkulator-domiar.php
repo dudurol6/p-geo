@@ -39,6 +39,8 @@
                     <label for="number" class="calc-form-area-label">Współrzędna Y<sub>końc</sub></label>
                     <input type="number" name="coord-Yend" id="coord-Yend" class="calc-form-area">
 
+                    <br><div class="sep-line"></div>
+
                     <label for="number" class="calc-form-area-label">Miara bieżąca</label>
                     <input type="number" name="current" id="current" class="calc-form-area">
 

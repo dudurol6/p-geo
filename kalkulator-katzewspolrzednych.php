@@ -33,11 +33,15 @@
                     <label for="number" class="calc-form-area-label">Współrzędna Y<sub>L</sub></label>
                     <input type="number" name="coord-YL" id="coord-YL" class="calc-form-area">
 
+                    <br><div class="sep-line"></div>
+
                     <label for="number" class="calc-form-area-label">Współrzędna X<sub>P</sub></label>
                     <input type="number" name="coord-XP" id="coord-XP" class="calc-form-area">
 
                     <label for="number" class="calc-form-area-label">Współrzędna Y<sub>P</sub></label>
                     <input type="number" name="coord-YP" id="coord-YP" class="calc-form-area">
+
+                    <br><div class="sep-line"></div>
 
                     <label for="number" class="calc-form-area-label">Współrzędna X<sub>C</sub></label>
                     <input type="number" name="coord-XC" id="coord-XC" class="calc-form-area">
