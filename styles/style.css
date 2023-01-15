@@ -119,6 +119,26 @@ a:hover{
     letter-spacing: 0.5px;
 }
 
+.goUpButtonShow{
+	opacity: 1!important;
+}
+
+#goUp{
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	z-index: 100;
+	opacity: 0;
+	background: none;
+  	border: none;
+  	border-radius: 50%;
+  	cursor: pointer;
+  	font-size: 48px;
+  	line-height: 48px;
+  	width: 48px;
+	text-align: center;
+}
+
 .header-title{
     font-weight: 700;
     font-size: 46px;

@@ -44,6 +44,30 @@
 
 <body>
 
+	<div id="goUp">⬆️</div>
+
+	<script>
+		var goUpButton = document.getElementById('goUp');
+		var rootElement = document.documentElement;
+
+		function handleScroll(){
+			var scrollTotal = rootElement.scrollHeight - rootElement.clientHeight;
+			if(scrollTotal >= 200){
+  				if ((rootElement.scrollTop / scrollTotal ) > 0.60 ){
+					goUpButton.classList.add('goUpButtonShow');
+  				} else{ goUpButton.classList.remove('goUpButtonShow'); }	
+			}	
+		}
+		function scrollToTop(){
+			rootElement.scrollTo({
+    			top: 0,
+    			behavior: "smooth"
+  			})
+		}
+		document.addEventListener('scroll', handleScroll);
+		goUpButton.addEventListener('click', scrollToTop);
+	</script>
+
     <div id="app">
         <header>
             <div class="header-title">Przystanek Geodezja</div>
