@@ -8,6 +8,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes"></meta>
     <meta name="apple-mobile-web-app-status-bar-style" content="default"></meta>
     <meta name="author" content="Maciej Dudkowski">
+	<meta name="description" content="Przystanek Geodezja - portal dla każdego technika geodety, ale nie tylko.">
     <title><?php echo title; ?></title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
