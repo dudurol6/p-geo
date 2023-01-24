@@ -29,10 +29,19 @@
 html{
 	width: 100%;
     min-height: calc(100% + env(safe-area-inset-top));
-    background: url('../img/background.jpg');
-	background-color: #a05936;
-    background-size: cover;  
     padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+.bgimg{
+    background-color: #a05936!important;
+    background-size: cover!important;  
+    width: 100%!important;
+    min-height: calc(100% + env(safe-area-inset-top))!important;
+}
+.webp .bgimg{
+    background: url('../img/background.webp');
+}
+.no-webp .bgimg{
+    background: url('../img/background.jpg');
 }
 body{
     /*font-family: 'Roboto Condensed', sans-serif;*/
@@ -319,15 +328,17 @@ a:hover{
     background: url('../img/me-image3.png');
     width: 500px!important;
     height: 500px!important;
-    background-size: 450px;
-    background-position: center;
-    transition: 0.3s;
-    background-repeat: no-repeat;
-    opacity: 0.9;
-    text-align: center;
+    background-size: 450px!important;
+    background-position: center!important;
+    transition: 0.3s!important;
+    background-repeat: no-repeat!important;
+    opacity: 0.9!important;
+    text-align: center!important;
     font-size:22px!important;
-    cursor: default;
+    cursor: default!important;
 }
+.webp .me-image{ background: url('../img/me-image3.webp'); }
+.no-webp .me-image{ background: url('../img/me-image3.png'); }
 
 .me-image:hover{
     opacity: 1;
@@ -335,13 +346,20 @@ a:hover{
     background-position: center;
 }
 
-#azimuth{ background: url('../img/azymut-image.png'); }
-#anglefromcoordinates{ background: url('../img/katzewspolrzednych-image.png'); }
-#orthogonalmethod{ background: url('../img/metodaortogonalna-image.png'); }
-#polarmethod{ background: url('../img/metodabiegunowa-image.png'); }
-#angularindentation{ background: url('../img/wcieciekatowe-image.png'); }
-#linearindentation { background: url('../img/wciecieliniowe-image.png'); }
-#backindentation{ background: url('../img/wcieciewstecz-image.png'); }
+.no-webp #azimuth{ background: url('../img/azymut-image.png'); }
+.webp #azimuth{ background: url('../img/azymut-image.webp'); }
+.no-webp #anglefromcoordinates{ background: url('../img/katzewspolrzednych-image.png'); }
+.webp #anglefromcoordinates{ background: url('../img/katzewspolrzednych-image.webp'); }
+.no-webp #orthogonalmethod{ background: url('../img/metodaortogonalna-image.png'); }
+.webp #orthogonalmethod{ background: url('../img/metodaortogonalna-image.webp'); }
+.no-webp #polarmethod{ background: url('../img/metodabiegunowa-image.png'); }
+.webp #polarmethod{ background: url('../img/metodabiegunowa-image.webp'); }
+.no-webp #angularindentation{ background: url('../img/wcieciekatowe-image.png'); }
+.webp #angularindentation{ background: url('../img/wcieciekatowe-image.webp'); }
+.no-webp #linearindentation { background: url('../img/wciecieliniowe-image.png'); }
+.webp #linearindentation { background: url('../img/wciecieliniowe-image.webp'); }
+.no-webp #backindentation{ background: url('../img/wcieciewstecz-image.png'); }
+.webp #backindentation{ background: url('../img/wcieciewstecz-image.webp'); }
 
 /*#############################################################################*/
 /*#############################################################################*/

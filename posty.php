@@ -25,6 +25,9 @@
 			<a class="post-a" href="post.php?post=sprzet_w_geodezji">
                 <div class="main-elem column border post-item">4 - Sprzęt używany do pomiarów</div>
 			</a>
+            <a class="post-a" href="post.php?post=mapy">
+                <div class="main-elem column border post-item">5 - Mapy</div>
+			</a>
 			
 		</div>
 

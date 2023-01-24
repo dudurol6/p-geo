@@ -27,7 +27,7 @@
 	<meta name="msapplication-config" content="/icons/browserconfig.xml">
 	<meta name="theme-color" content="#a05936">
 
-
+	<script type="text/javascript" src="scripts/modernizr-custom.js"></script>
     <link rel="stylesheet" href="fontello/css/fontello.css">
     <link rel="stylesheet" href="styles/style.css">
     <script src="scripts/jquery-3.5.0.min.js"></script>
@@ -43,8 +43,7 @@
 	</script>
 </head>
 
-<body>
-
+<body class="bgimg">
 	<div id="goUp">⬆️</div>
 
 	<script>
@@ -70,6 +69,7 @@
 	</script>
 
     <div id="app">
+
         <header>
             <div class="header-title">Przystanek Geodezja</div>
             <nav>

@@ -11,41 +11,51 @@
 		if($postTitle == 'czym_jest_geodezja'){ // 1
 			define('title', 'PG - Czym jest geodezja');
 			$postTitle = "Czym jest geodezja";
-			$img[0] = "posts/1/1-1.jpg";
-			$img[1] = "posts/1/1-2.jpg";
-			$img[2] = "posts/1/1-end.jpg";
+			$img[0] = "posts/1/1-1";
+			$img[1] = "posts/1/1-2";
+			$img[2] = "posts/1/1-end";
 		}
 		else if($postTitle == 'uprawnienia_zawodowe'){ // 2
 			define('title', 'PG - Uprawnienia zawodowe');
 			$postTitle = "Geodezyjne uprawnienia zawodowe";
-			$img[0] = "posts/2/2-1.jpg";
-			$img[1] = "posts/2/2-2.jpg";
-			$img[2] = "posts/2/2-3.jpg";
-			$img[3] = "posts/2/2-4.jpg";
-			$img[4] = "posts/2/2-5.jpg";
-			$img[5] = "posts/2/2-end.jpg";
+			$img[0] = "posts/2/2-1";
+			$img[1] = "posts/2/2-2";
+			$img[2] = "posts/2/2-3";
+			$img[3] = "posts/2/2-4";
+			$img[4] = "posts/2/2-5";
+			$img[5] = "posts/2/2-end";
 		}
 		else if($postTitle == 'jednostki_w_geodezji'){ // 3
 			define('title', 'PG - Jednostki w geodezji');
 			$postTitle = "Jednostki w geodezji";
-			$img[0] = "posts/3/3-1.jpg";
-			$img[1] = "posts/3/3-2.jpg";
-			$img[2] = "posts/3/3-3.jpg";
-			$img[3] = "posts/3/3-4.jpg";
-			$img[4] = "posts/3/3-end.jpg";
+			$img[0] = "posts/3/3-1";
+			$img[1] = "posts/3/3-2";
+			$img[2] = "posts/3/3-3";
+			$img[3] = "posts/3/3-4";
+			$img[4] = "posts/3/3-end";
 		}
 		else if($postTitle == 'sprzet_w_geodezji'){ // 4
 			define('title', 'PG - Sprzęt w geodezji');
 			$postTitle = "Sprzęt w geodezji";
-			$img[0] = "posts/4/4-1.jpg";
-			$img[1] = "posts/4/4-2.jpg";
-			$img[2] = "posts/4/4-3.jpg";
-			$img[3] = "posts/4/4-4.jpg";
-			$img[4] = "posts/4/4-5.jpg";
-			$img[5] = "posts/4/4-6.jpg";
-			$img[6] = "posts/4/4-7.jpg";
-			$img[7] = "posts/4/4-8.jpg";
-			$img[8] = "posts/4/4-end.jpg";
+			$img[0] = "posts/4/4-1";
+			$img[1] = "posts/4/4-2";
+			$img[2] = "posts/4/4-3";
+			$img[3] = "posts/4/4-4";
+			$img[4] = "posts/4/4-5";
+			$img[5] = "posts/4/4-6";
+			$img[6] = "posts/4/4-7";
+			$img[7] = "posts/4/4-8";
+			$img[8] = "posts/4/4-end";
+		}
+		else if($postTitle == 'mapy'){ // 4
+			define('title', 'PG - Mapy');
+			$postTitle = "Mapy";
+			$img[0] = "posts/5/5-1";
+			$img[1] = "posts/5/5-2";
+			$img[2] = "posts/5/5-3";
+			$img[3] = "posts/5/5-4";
+			$img[4] = "posts/5/5-5";
+			$img[5] = "posts/5/5-end";
 		}
 
 		/*-----------------------------------------------------------------*/
@@ -70,7 +80,13 @@
 
 			<?php
 				for($n = 0; isset($img[$n]); $n++){
-					echo '<img class="post-image rounded" src="'.$img[$n].'">';
+					echo '
+					<picture class="post-image">
+						<source type="image/webp" srcset="'.$img[$n].'.webp'.'">
+						<source type="image/jpeg" srcset="'.$img[$n].'.jpg'.'">
+						<img class="rounded" style="width: 100%;" src="'.$img[$n].'.jpg'.'">
+					</picture>
+					';
 				}
 			?>	
 
