@@ -36,7 +36,12 @@ function angleFromCoordinates(){
     }
     else{
         $('#result').css('display', 'block');
-        if(correct) $('#result').html('Kąt = '+result.toFixed(4)+'<span style="text-transform:none"><sup>g</sup></span>');
+        if(correct){
+            $('#result').html('Kąt = '+result.toFixed(4)+'<span style="text-transform:none"><sup>g</sup></span>');
+            
+            localStorage.setItem('angleFromCoordHistory'+whatsNewValueForHistory('angleFromCoordHistory')+'', result.toFixed(4)+'<span style="text-transform: none;"><sup>g</sup></span>');
+            returnHistory('angleFromCoordHistory');
+        }
         else $('#result').html('BŁĄD!');
     }
 

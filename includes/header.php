@@ -28,6 +28,7 @@
 	<meta name="theme-color" content="#a05936">
 
 	<script type="text/javascript" src="scripts/modernizr-custom.js"></script>
+	<script type="text/javascript" src="scripts/history-logic.js"></script>
     <link rel="stylesheet" href="fontello/css/fontello.css">
     <link rel="stylesheet" href="styles/style.css">
     <script src="scripts/jquery-3.5.0.min.js"></script>
@@ -44,7 +45,7 @@
 </head>
 
 <body class="bgimg">
-	<div id="goUp">⬆️</div>
+	<div id="goUp"><i class="demo-icon icon-up-outline"></i></div>
 
 	<script>
 		var goUpButton = document.getElementById('goUp');

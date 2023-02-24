@@ -20,6 +20,10 @@ function linearIndentation(){
     if(distance_a && distance_b){
         $('#result').css('display', 'block');
         $('#result').html('X<sub>P</sub> = '+resultX.toFixed(2)+'  Y<sub>P</sub> = '+resultY.toFixed(2)+'');
+
+        var toHistory = ' X:'+resultX.toFixed(2)+'  Y:'+resultY.toFixed(2)+'';
+        localStorage.setItem('linearIndentationHistory'+whatsNewValueForHistory('linearIndentationHistory')+'', toHistory);
+        returnHistory('linearIndentationHistory');
     }
     else{
         $('#result').css('display', 'block');

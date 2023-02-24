@@ -31,6 +31,10 @@ function backIndentation(){
     if((x_a != x_c || y_a != y_c) && (dir_a != dir_b && dir_a != dir_c && dir_b != dir_c)){
         $('#result').css('display', 'block');
         $('#result').html('X<sub>P</sub> = '+resultX.toFixed(2)+'  Y<sub>P</sub> = '+resultY.toFixed(2)+'');
+
+        var toHistory = ' X:'+resultX.toFixed(2)+'  Y:'+resultY.toFixed(2)+'';
+        localStorage.setItem('backIndentationHistory'+whatsNewValueForHistory('backIndentationHistory')+'', toHistory);
+        returnHistory('backIndentationHistory');
     }
     else{
         $('#result').css('display', 'block');

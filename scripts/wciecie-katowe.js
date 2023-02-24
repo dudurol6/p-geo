@@ -16,6 +16,10 @@ function angularIndentation(){
         if((angleAlpha > 0 && angleAlpha <= 200) && (angleBeta > 0 && angleBeta <= 200)){
             $('#result').css('display', 'block');
             $('#result').html('X<sub>P</sub> = '+resultX.toFixed(2)+'  Y<sub>P</sub> = '+resultY.toFixed(2)+'');
+
+            var toHistory = ' X:'+resultX.toFixed(2)+'  Y:'+resultY.toFixed(2)+'';
+            localStorage.setItem('angularIndentation'+whatsNewValueForHistory('angularIndentation')+'', toHistory);
+            returnHistory('angularIndentation');
         }
         else{
             $('#result').css('display', 'block');

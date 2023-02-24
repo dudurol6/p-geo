@@ -21,7 +21,10 @@
                 <div style="color: #fa4141;margin-left: 10px;"><strike>100,00</strike></div>
                 <div class="upperTXT" style="width: 100%; color: #e6e6e6; font-size: 16px;">Puste pole oznacza "0.00"</div>
             </div>
-
+            <!----------------------------------------------------->
+            <script>const appType = 'angularIndentation';</script>
+            <?php include('includes/calculation-history.php'); ?>
+            <!----------------------------------------------------->
             <div class="main-elem row">
 
                 <div class="in-elem description-image" id="angularindentation"></div>

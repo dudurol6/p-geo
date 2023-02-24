@@ -33,6 +33,10 @@ function polar(){
 
         $('#result').css('display', 'block');
         $('#result').html('X<sub>P</sub> = '+resultX.toFixed(2)+'  Y<sub>P</sub> = '+resultY.toFixed(2)+'');
+
+        var toHistory = ' X:'+resultX.toFixed(2)+'  Y:'+resultY.toFixed(2)+'';
+        localStorage.setItem('polarHistory'+whatsNewValueForHistory('polarHistory')+'', toHistory);
+        returnHistory('polarHistory');
     }
     else{
         $('#result').css('display', 'block');

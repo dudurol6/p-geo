@@ -24,7 +24,13 @@ function offset(){
     else{
         $('#result').css('display', 'block');
         if(X_beg == X_end && Y_beg == Y_end) $('#result').html('BŁĄD!'); 
-        else $('#result').html('X<sub>P</sub> = '+resultX.toFixed(2)+'  Y<sub>P</sub> = '+resultY.toFixed(2)+'');
+        else{
+            $('#result').html('X<sub>P</sub> = '+resultX.toFixed(2)+'  Y<sub>P</sub> = '+resultY.toFixed(2)+'');
+
+            var toHistory = ' X:'+resultX.toFixed(2)+'  Y:'+resultY.toFixed(2)+'';
+            localStorage.setItem('offsetHistory'+whatsNewValueForHistory('offsetHistory')+'', toHistory);
+            returnHistory('offsetHistory');
+        }
     }
     
 }

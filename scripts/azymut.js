@@ -26,7 +26,12 @@ function azimuth(){
     }
     else{
         $('#result').css('display', 'block');
-        if(correct) $('#result').html('Azymut = '+result.toFixed(4)+'<span style="text-transform:none"><sup>g</sup></span>');
+        if(correct){
+            $('#result').html('Azymut = '+result.toFixed(4)+'<span style="text-transform:none"><sup>g</sup></span>');
+            
+            localStorage.setItem('azimuthHistory'+whatsNewValueForHistory('azimuthHistory')+'', result.toFixed(4)+'<span style="text-transform: none;"><sup>g</sup></span>');
+            returnHistory('azimuthHistory');
+        }
         else $('#result').html('BŁĄD!');
     }
 

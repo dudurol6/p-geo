@@ -19,9 +19,12 @@
             <div class="main-elem border post-item" style="background-color: #c2873f; justify-content: center;">
                 <div style="color: #8fe835;margin-right: 10px;">100.00</div>
                 <div style="color: #fa4141;margin-left: 10px;"><strike>100,00</strike></div>
-                <div class="upperTXT" style="width: 100%; color: #e6e6e6; font-size: 16px;">Puste pole oznacza "0.00"</div>
+                <div class="upperTXT smluppercase" style="width: 100%">Puste pole oznacza "0.00"</div>
             </div>
-
+            <!----------------------------------------------------->
+            <script>const appType = 'azimuthHistory';</script>
+            <?php include('includes/calculation-history.php'); ?>
+            <!----------------------------------------------------->
             <div class="main-elem row"> <!-- 1 -->
 
                 <div class="in-elem description-image" id="azimuth"></div>
