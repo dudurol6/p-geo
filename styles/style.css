@@ -289,6 +289,8 @@ a.history-a:hover{ color: #000000; font-size: 16px;}
 
 .no-webp #azimuth{ background: url('../img/azymut-image.png'); }
 .webp #azimuth{ background: url('../img/azymut-image.webp'); }
+.no-webp #distance{ background: url('../img/odleglosc-image.png'); }
+.webp #distance{ background: url('../img/odleglosc-image.webp'); }
 .no-webp #anglefromcoordinates{ background: url('../img/katzewspolrzednych-image.png'); }
 .webp #anglefromcoordinates{ background: url('../img/katzewspolrzednych-image.webp'); }
 .no-webp #orthogonalmethod{ background: url('../img/metodaortogonalna-image.png'); }

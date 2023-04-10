@@ -20,6 +20,9 @@
                 <a class="main-a" href="kalkulator-azymut.php">
                     <div class="main-elem column border calculation-apps-images" id="azimuth">Azymut</div>
                 </a>
+                <a class="main-a" href="kalkulator-odleglosc.php">
+                    <div class="main-elem column border calculation-apps-images" id="distance">Odległość</div>
+                </a>
                 <a class="main-a" href="kalkulator-katzewspolrzednych.php">
                     <div class="main-elem column border calculation-apps-images" id="anglefromcoordinates">Kąt ze <br><br> współrz.</div>
                 </a>
