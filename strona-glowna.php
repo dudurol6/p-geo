@@ -41,6 +41,9 @@
                 <a class="main-a" href="kalkulator-wcieciewstecz.php">
                     <div class="main-elem column border calculation-apps-images" id="backindentation">Wcięcie wstecz</div>
                 </a>
+                <a class="main-a" href="kalkulator-pole.php">
+                    <div class="main-elem column border calculation-apps-images" id="surfaceArea">Pole powierzchni</div>
+                </a>
                 
             </div>
 

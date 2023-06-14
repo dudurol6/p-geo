@@ -8,6 +8,7 @@ function clearWholeHistory(){
     if(confirm('Czy chcesz wyczyścić całą historię wszystkich obliczeń?')){
         localStorage.clear();
     }
+    return "The history has been cleared successfully!";
 }
 
 function returnHistory(type){

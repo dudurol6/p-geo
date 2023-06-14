@@ -303,6 +303,8 @@ a.history-a:hover{ color: #000000; font-size: 16px;}
 .webp #linearindentation { background: url('../img/wciecieliniowe-image.webp'); }
 .no-webp #backindentation{ background: url('../img/wcieciewstecz-image.png'); }
 .webp #backindentation{ background: url('../img/wcieciewstecz-image.webp'); }
+.no-webp #surfaceArea{ background: url('../img/pole-image.png'); }
+.webp #surfaceArea{ background: url('../img/pole-image.webp'); }
 
 /*#############################################################################*/
 /*#############################################################################*/

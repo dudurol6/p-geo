@@ -19,7 +19,7 @@ function distance(){
         $('#result').css('display', 'block');
         $('#result').html('Odległość = '+result.toFixed(2)+'');
         
-        localStorage.setItem('distanceHistory'+whatsNewValueForHistory('distanceHistory')+'', result.toFixed(2));
+        localStorage.setItem('distanceHistory'+whatsNewValueForHistory('distanceHistory')+'', result.toFixed(2)+' <span style="text-transform: none;">m</span>');
         returnHistory('distanceHistory');
     }
     else{
